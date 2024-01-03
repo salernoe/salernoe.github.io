@@ -37,11 +37,37 @@ body {
   }
   
   .welcome img {
-    width: 350px; /* Ajusta el tamaño del logo */
+    width: 380px; /* Ajusta el tamaño del logo */
     margin-bottom: 20px;
 }
 
 .welcome img:hover {
   opacity: 0.3; /* Cambio de opacidad al pasar el mouse */
 }
-  
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s; /* Transición de color al pasar el mouse */
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Cambio de color al pasar el mouse */
+}
+
+.welcome img {
+  width: 150px; /* Ajusta el tamaño del logo */
+  margin-bottom: 20px;
+  transition: opacity 0.3s; /* Transición de opacidad al pasar el mouse */
+}
+
+.welcome img:hover {
+  opacity: 0.7; /* Cambio de opacidad al pasar el mouse */
+}
+.welcome {
+  display: inline-block; /* Para que la transformación funcione correctamente */
+}
+
+.welcome:hover {
+  transform: rotateY(360deg); /* Giro de 360 grados al pasar el mouse */
+  transition: transform 0.5s ease; /* Transición suave del giro */
+}

@@ -1,0 +1,48 @@
+.precios {
+    text-align: center;
+    padding: 50px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e3f; /* Azul oscuro */
+    color: #fff;
+  }
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para cada plan */
+  .plan {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilos para el primer plan */
+  .plan1 {
+    background-color: #1f1fd6; /* Color azul oscuro */
+    color: #fff;
+  }
+  
+  /* Agrega estilos similares para plan2 y plan3, con colores diferentes */
+  
+  .plan2 {
+    background-color: #2e2e3f; /* Otro color */
+    color: #fff;
+  }
+  
+  .plan3 {
+    background-color: #3e3e3f; /* Otro color */
+    color: #fff;
+  }
+  
+  /* Efecto de cambio de color al pasar el mouse */
+  .plan:hover {
+    filter: brightness(85%);
+    cursor: pointer;
+  }
+  .logo img {
+    width: 80px; /* Ajusta el tamaño del logo */
+  }
