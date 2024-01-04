@@ -1,95 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e3f; /* Azul oscuro */
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Estilos para las tablas */
 .precios {
-    text-align: center;
-    padding: 50px;
-  }
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #1e1e3f; /* Azul oscuro */
-    color: #fff;
-  }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  /* Estilos para cada plan */
-  .plan {
-    margin-bottom: 0px;
-    padding: 20px;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-  }
-  
-  /* Estilos para el primer plan */
-  .plan1 {
-    background-color: #1f1fd6; /* Color azul oscuro */
-    color: #fff;
-  }
-  
-  /* Agrega estilos similares para plan2 y plan3, con colores diferentes */
-  
-  .plan2 {
-    background-color: #4a4ab3; /* Otro color */
-    color: #fff;
-  }
-  
-  .plan3 {
-    background-color: #2e2e3f; /* Otro color */
-    color: #fff;
-  }
-  
-  /* Efecto de cambio de color al pasar el mouse */
-  .plan:hover {
-    filter: brightness(85%);
-    cursor: pointer;
-  }
-  .plans-container {
-    display: flex;
-    justify-content: space-around; /* Espacio entre las tablas */
-    flex-wrap: wrap; /* Envolverá las tablas si no caben en el ancho */
+  text-align: center;
+  padding: 50px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .plan {
-    flex: 0 0 calc(50% - 20px); /* Ancho del 50% para cada tabla con margen */
-    margin: 10px; /* Espacio entre las tablas */
+  flex: 0 0 calc(30% - 20px);
+  margin: 10px;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
 }
-  .logo img {
-    width: 80px; /* Ajusta el tamaño del logo */
-  }
-  nav ul {
-    list-style: none;
-    display: flex;
-    transition: color 0.3s; /* Transición de color al pasar el mouse */
-  }
-  
-  nav ul li {
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    text-align: center;
-    padding: 50px;
-  }
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s; /* Transición de color al pasar el mouse */
-  }
-  
-  nav ul li a:hover {
-    color: #ffcc00; /* Cambio de color al pasar el mouse */
-  }
-  
-  .welcome img {
-    width: 150px; /* Ajusta el tamaño del logo */
-    margin-bottom: 20px;
-    transition: opacity 0.3s; /* Transición de opacidad al pasar el mouse */
-  }
+
+.plan1 {
+  background-color: #1f1fd6; /* Color azul oscuro */
+  color: #fff;
+}
+
+.plan2 {
+  background-color: #4a4ab3; /* Otro color */
+  color: #fff;
+}
+
+.plan3 {
+  background-color: #2e2e3f; /* Otro color */
+  color: #fff;
+}
+
+.plan:hover {
+  filter: brightness(85%);
+  cursor: pointer;
+}
+
+.logo img {
+  width: 80px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  transition: color 0.3s;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
