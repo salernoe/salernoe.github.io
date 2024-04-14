@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Fuente a utilizar */
+    background-color: #0f3057; /* Azul oscuro para el fondo */
+    color: #ffffff; /* Color de texto */
+  }
+  
+  .header {
+    background-color: #1f487e; /* Azul un tono más claro para el zócalo */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    display: block;
+  max-width: 80%; /* Ajusta el ancho de la imagen al 80% del contenedor principal */
+  margin: 10px auto; /* Centrar la imagen y agregar espacio arriba y abajo */max-width: 100px; /* Ajusta el tamaño del logo */
+  }
+
+
+  
+.main-content {
+  max-width: 800px; /* Ajusta el tamaño del logo */
+  
+}
+  
+  .top-nav ul {
+    list-style-type: none;
+  }
+  
+  .top-nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .social-menu a {
+    margin-left: 10px;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 32px;
+  }
+  
+  .welcome-section img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen de portada */
+  }
+  /* Estilos para el texto a la derecha */
+.text-right {
+  position: absolute;
+  top: 50%; /* Posición verticalmente al centro */
+  right: 20px; /* Ajusta la distancia desde el borde derecho */
+  transform: translateY(-50%); /* Centrar verticalmente */
+  color: #ffffff; /* Color del texto */
+  text-align: right; /* Alinear a la derecha */
+}
+
+.text-right p {
+  font-size: 18px; /* Tamaño de fuente del texto */
+}
